@@ -32,7 +32,7 @@ fn main() {
 fn main() {
 
     let number: i32 = 6;
-
+        //创建一个元组，包含可满足的条件
     match (number % 4 == 0, number % 3 == 0, number % 2 == 0) {
         (true, _, true) => println!("number is divisible by both 4 and 2"),
         // 检查是否同时被3和2整除
